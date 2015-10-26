@@ -47,13 +47,13 @@ Initialized empty Git repository in E:/Workspace/Fun_With_Functions_Project/.git
 /
 
 4. git add . to add my materials
-E:\Workspace\Fun_With_Functions_Project>git add .
+E:\Workspace\Fun_With_Functions_Project> *git add .*
 
 5. git config our user name and email
-E:\Workspace\Fun_With_Functions_Project>git config user.name "kylielent"
+E:\Workspace\Fun_With_Functions_Project> *git config user.name "kylielent"*
 
-E:\Workspace\Fun_With_Functions_Project>git config user.email "lentk@student.swo
-su."
+E:\Workspace\Fun_With_Functions_Project> *git config user.email "lentk@student.swo
+su." *
 
 
 6. Start a browser of choice
@@ -77,7 +77,7 @@ So go back to the command prompt, and then do the first line, after pressing ent
 /kylielent/Fun_With_Functions.git
 
 //Below is the second line. Now that it had problems. 
-E:\Workspace\Fun_With_Functions_Project>git push -u origin master
+E:\Workspace\Fun_With_Functions_Project> *git push -u origin master*
 error: src refspec master does not match any.
 error: failed to push some refs to 'https://github.com/kylielent/Fun_With_Functi
 ons.git'
@@ -87,7 +87,7 @@ E:\Workspace\Fun_With_Functions_Project>git add .
 
 //So i just stayed after it, note that add and commit did not complain.
 //These are 
-E:\Workspace\Fun_With_Functions_Project>git commit -m "First commit"
+E:\Workspace\Fun_With_Functions_Project> *git commit -m "First commit"*
 [master (root-commit) 867a713] First commit
  5 files changed, 92 insertions(+)
  create mode 100644 .classpath
@@ -125,7 +125,7 @@ To push the current branch and set the remote as upstream, use
 
 
 //Now we try the new command
-E:\Workspace\Fun_With_Functions_Project> git push --set-upstream origin master
+E:\Workspace\Fun_With_Functions_Project> *git push --set-upstream origin master*
 Username for 'https://github.com': kylielent
 Password for 'https://kylielent@github.com':
 Counting objects: 9, done.
@@ -141,7 +141,7 @@ Branch master set up to track remote branch master from origin.
 E:\Workspace\Fun_With_Functions_Project>
 
 
-
+//nOW WE push our changes to the remote
 
 
 
